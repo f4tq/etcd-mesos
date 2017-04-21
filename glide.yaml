@@ -1,0 +1,69 @@
+package: git.corp.adobe.com/adobe-platform/etcd-mesos
+import:
+- package: github.com/coreos/etcd
+  version: 106d918dd585a63ee0045740fe040daa44669a77
+  subpackages:
+  - etcdserver/etcdhttp/httptypes
+  - etcdserver/stats
+  - pkg/types
+  - raft
+- package: github.com/coreos/go-etcd
+  version: 126041ef7b24a28359a12f8bf7f6a7db6756113d
+  subpackages:
+  - etcd
+- package: github.com/coreos/go-systemd
+  version: 6f3d6b0accd17b33624ee4df1532a03de6e4d536
+  subpackages:
+  - journal
+- package: github.com/coreos/pkg
+  version: 42a8c3b1a6f917bb8346ef738f32712a7ca0ede7
+  subpackages:
+  - capnslog
+- package: github.com/gogo/protobuf
+  version: 932b70afa8b0bf4a8e167fdf0c3367cebba45903
+  subpackages:
+  - proto
+- package: github.com/golang/glog
+  version: fca8c8854093a154ff1eb580aae10276ad6b1b5f
+- package: github.com/mesos/mesos-go
+  version: 7064d8760d60f029f568b9295e6842612e89e347
+  subpackages:
+  - auth
+  - detector
+  - executor
+  - mesosproto
+  - mesosutil
+  - messenger
+  - scheduler
+  - upid
+  - auth/sasl
+  - auth/sasl/mech
+- package: github.com/pborman/uuid
+  version: cccd189d45f7ac3368a0d127efb7f4d08ae0b655
+- package: github.com/samuel/go-zookeeper
+  version: 5f85ef92577639933d299695500692ece394b4a7
+  subpackages:
+  - zk
+- package: github.com/stretchr/objx
+  version: cbeaeb16a013161a98496fad62933b1d21786672
+- package: github.com/stretchr/testify
+  version: 7c2b1e5640dcf2631213ca962d892bffa1e08860
+  subpackages:
+  - assert
+  - mock
+- package: github.com/ugorji/go
+  version: 5abd4e96a45c386928ed2ca2a7ef63e2533e18ec
+  subpackages:
+  - codec
+- package: golang.org/x/net
+  version: 97d8e4e174133a4d1d2171380e510eb4dea8f5ea
+  subpackages:
+  - context
+- package: github.com/mesosphere/etcd-mesos
+  subpackages:
+  - config
+  - errors
+  - executor
+  - offercache
+  - rpc
+  - scheduler

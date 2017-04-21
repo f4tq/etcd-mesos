@@ -1,0 +1,84 @@
+hash: 0e8950bdfbc9a782ae7387337d2fd334fd83e2af365bfd8e347942ca71280416
+updated: 2017-04-21T14:53:39.28537749Z
+imports:
+- name: github.com/coreos/etcd
+  version: 106d918dd585a63ee0045740fe040daa44669a77
+  subpackages:
+  - Godeps/_workspace/src/github.com/coreos/go-systemd/journal
+  - Godeps/_workspace/src/github.com/coreos/pkg/capnslog
+  - Godeps/_workspace/src/github.com/gogo/protobuf/proto
+  - Godeps/_workspace/src/golang.org/x/net/context
+  - etcdserver/etcdhttp/httptypes
+  - etcdserver/stats
+  - pkg/types
+  - raft
+  - raft/raftpb
+- name: github.com/coreos/go-etcd
+  version: 126041ef7b24a28359a12f8bf7f6a7db6756113d
+  subpackages:
+  - etcd
+- name: github.com/coreos/go-systemd
+  version: 6f3d6b0accd17b33624ee4df1532a03de6e4d536
+  subpackages:
+  - journal
+- name: github.com/coreos/pkg
+  version: 42a8c3b1a6f917bb8346ef738f32712a7ca0ede7
+  subpackages:
+  - capnslog
+- name: github.com/gogo/protobuf
+  version: 932b70afa8b0bf4a8e167fdf0c3367cebba45903
+  subpackages:
+  - proto
+- name: github.com/golang/glog
+  version: fca8c8854093a154ff1eb580aae10276ad6b1b5f
+- name: github.com/mesos/mesos-go
+  version: 7064d8760d60f029f568b9295e6842612e89e347
+  subpackages:
+  - auth
+  - auth/callback
+  - auth/sasl
+  - auth/sasl/mech
+  - auth/sasl/mech/crammd5
+  - detector
+  - detector/zoo
+  - executor
+  - mesosproto
+  - mesosproto/scheduler
+  - mesosutil
+  - mesosutil/process
+  - messenger
+  - messenger/sessionid
+  - scheduler
+  - upid
+- name: github.com/mesosphere/etcd-mesos
+  version: cc13336c141c6ff4cd9d4ccc86826a576b2e3b3f
+  subpackages:
+  - config
+  - errors
+  - executor
+  - offercache
+  - rpc
+  - scheduler
+  - testing
+- name: github.com/pborman/uuid
+  version: cccd189d45f7ac3368a0d127efb7f4d08ae0b655
+- name: github.com/samuel/go-zookeeper
+  version: 5f85ef92577639933d299695500692ece394b4a7
+  subpackages:
+  - zk
+- name: github.com/stretchr/objx
+  version: cbeaeb16a013161a98496fad62933b1d21786672
+- name: github.com/stretchr/testify
+  version: 7c2b1e5640dcf2631213ca962d892bffa1e08860
+  subpackages:
+  - assert
+  - mock
+- name: github.com/ugorji/go
+  version: 5abd4e96a45c386928ed2ca2a7ef63e2533e18ec
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: 97d8e4e174133a4d1d2171380e510eb4dea8f5ea
+  subpackages:
+  - context
+testImports: []
